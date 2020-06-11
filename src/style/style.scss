@@ -1,0 +1,488 @@
+$text-Arial: arial;
+$text-Franklin: 'franklin';
+$text-TimesNewRoman: 'Times New Roman';
+$lightgray: hsl(0, 0%, 93%);
+$darkgray: hsl(0, 0%, 20%);
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 100%;
+    width: 60%;
+}
+
+.Block2__header {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-family: $text-Arial;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: $text-Arial;
+}
+
+p {
+    font-family: $text-Arial;
+    text-align: center;
+    color: gray;
+}
+
+.Header {
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header__Img {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header__Panel {
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Header__Address {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.Header__AddressText {
+    margin-left: 10%;
+    text-align: left;
+    font-size: 15px;
+    font-family: $text-Arial;
+    font-weight: 600;
+    color: black;
+}
+
+.Header__PanelButton {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: $text-Arial;
+    font-weight: bold;
+    transition: background-color ease-in 300ms;
+
+    &:hover {
+        background-color: yellow;
+    }
+}
+
+.Block1 {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../public/image/FonBlock1.jpeg');
+    background-size: cover;
+}
+
+.Block1__Text {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    width: 650px;
+    font-family: $text-Arial;
+}
+
+.Block1__TextYellow {
+    color: yellow;
+}
+
+.Block1__button {
+    padding: 20px 50px;
+}
+
+.Block2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Block2__Img {
+    border-radius: 100%;
+}
+
+.Block2__Content {
+    display: flex;
+    padding: 0 70px;
+}
+
+.Block2__ContentElements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Block2__Text {
+    width: 50%;
+    margin: 0;
+    padding-bottom: 15%;
+    font-family: $text-Arial;
+}
+
+.Block3 {
+    height: 450px;
+    display: flex;
+    background-image: url('../public/image/Block3Fon.jpeg');
+    background-size: cover;
+}
+
+.Block3__Image {
+    width: 50%;
+    display: flex;
+}
+
+.Block3__Content {
+    width: 50%;
+    display: table-column;
+}
+
+.Block3__List {
+    padding-left: 5%;
+}
+
+.Block3__Item {
+    align-items: center;
+    display: flex;
+}
+
+.Block3__Title {
+    margin-top: 5%;
+    margin-left: 4%;
+    text-align: left;
+    color: white;
+}
+
+.Block3__ColorText {
+    color: red;
+}
+
+.Block3__ItemText {
+    padding: 0 15px;
+    font-size: 20px;
+    color: white;
+    font-family: $text-Arial;
+}
+
+.Block3__button {
+    width: 200px;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.Block4 {
+    display: flex;
+    background-color: $lightgray;
+}
+
+.Block4__Box {
+    width: 25%;
+}
+
+.Block4__BoxNumber {
+    color: black;
+    font-size: xx-large;
+    font-family: $text-Franklin;
+    margin-bottom: 0;
+}
+
+mark {
+    color: $darkgray;
+    padding: 0 0.5em;
+}
+
+.mark2 {
+    margin-left: 0.25em;
+    padding: 0 0;
+}
+
+.Block5-Trainers {
+    height: 550px;
+}
+
+.Block5__Header {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Block5__HeaderText {
+    margin-bottom: 0%;
+    font-family: $text-Arial;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+}
+
+.Block5__Content {
+    display: flex;
+}
+
+.Block5__ContentItem {
+    width: 25%;
+}
+
+.Block5__ContentImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Block5__RoundImage {
+    border-radius: 100%;
+    border: 3px;
+    box-shadow: 0 0 10px  hsl(0, 0%, 47%);
+}
+
+.Block5__ContentText {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Block6-Calculate {
+    display: flex;
+}
+
+.Block6__Img {
+    display: flex;
+    width: 40%;
+    height: 700px;
+    background-image: url('../public/image/FonBlock6.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Block6__Content {
+    width: 60%;
+    background-color: $lightgray;
+}
+
+.Block6__Title {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.Block6__Description {
+    text-align: left;
+    display: flex;
+    margin-left: 10%;
+    width: 70%;
+    line-height: 1.7em;
+}
+
+.Block6__Form {
+    width: 70%;
+    height: 45%;
+    margin: 10% 0 0 10%;
+    background-color: $darkgray;
+}
+
+.Block6__Calculate {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Block6__Button {
+    margin: 5px 5px;
+    width: 45%;
+    height: 40px;
+    border: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
+    font-weight: normal;
+
+    &:last-child {
+        color: white;
+    }
+}
+
+.Block6__ButtonYellow {
+    padding: 0;
+    font-size: 20px;
+    background-color: yellow;
+    cursor: pointer;
+    outline: none;
+
+    &:active {
+        background-color: rgba(255, 255, 0, 0.7);
+    }
+}
+
+.Block6_DescriptionText {
+    padding: 0 10px;
+    color: white;
+    font-size: 16px;
+    line-height: 2em;
+    font-style: italic;
+    font-family: $text-TimesNewRoman;
+    text-align: left;
+}
+
+.Block6_Description {
+    margin: 0;
+    padding: 0 40px;
+}
+
+.Block7-Subscribe {
+    display: flex;
+    height: 200px;
+    background-image: url('../public/image/BLock7Fon.jpeg');
+    background-size: cover;
+    background-position: left;
+}
+
+.Block7__Content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.Block7__Text {
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.Block7__Subscribe {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Block7__TextBox {
+    width: 300px;
+    height: 30%;
+    border: none;
+    font-family: $text-Franklin;
+    font-size: large;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.Block7__Button {
+    height: 30%;
+    width: 150px;
+}
+
+footer {
+    height: 300px;
+    background-image: url('../public/image/FonBlock1.jpeg');
+    background-size: cover;
+}
+
+.Contacts__Content {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 100px;
+}
+
+.Contacts__Item {
+    width: 250px;
+}
+
+.Contacts__ItemHeader {
+    text-align: left;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.Contacts__Item__Text {
+    display: flex;
+}
+
+.Contacts__ItemContent {
+    display: flex;
+    margin-top: 0;
+}
+
+.Contacts__ContentImg {
+    margin-top: 10px;
+    width: 20px;
+    height: 25px;
+}
+
+.Contacts__ContentText {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 2em;
+    margin-top: 0;
+}
+
+.Contacts__Nav {
+    margin-top: 30px;
+    display: flex;
+}
+
+.ContactsMark {
+    color: white;
+}
+
+.Contacts__NavText {
+    width: 50%;
+}
+
+.Contacts__NavMenu {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-evenly;
+}
+
+.Contacts__ButtonContent {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: $text-Arial;
+    font-weight: 700;
+}
+
+.Contacts__IconLink {
+    height: 25px;
+}
+
+.IconLink {
+    margin: 10px 0 0 20px;
+}
+
+.Button {
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: $text-Arial;
+    background-color: yellow;
+}
